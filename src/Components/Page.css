@@ -1,0 +1,46 @@
+/* Page.css */
+
+.page-container {
+    margin: 1px auto;
+    max-width: 1600px;
+    max-height: 800PX;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.post {
+    padding: 4px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    margin: 5px 5px 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.post-body {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.loading {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
